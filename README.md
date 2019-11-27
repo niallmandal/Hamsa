@@ -31,4 +31,4 @@ Moving your open hand, while having a closed hand inside of the frame, will rota
 
 Moving two open hands towards or away from eachother will zoom out and in, respectively. The line formed between each hand represents the distance between each hand. The __derivative__ in respect to the length of the line is also displayed as __dy/dx__. A positive slope indicates a growth in the length of the line, so the program will zoom according to the value of __dy/dx__ at that point in time. A larger positive __dy/dx__ will zoom in more clicks relative to a smaller positive __dy/dx__. If the derivitave is negative, the same will happen but the program will zoom out instead.
 
-\* *NOTE: The UI mimics both keyboard and mouse input, and does not communicate with Fusion 360 directly
+*NOTE: The UI mimics both keyboard and mouse input, and does not communicate with Fusion 360 directly
