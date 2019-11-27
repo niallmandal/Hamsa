@@ -1,5 +1,6 @@
 # Hamsa
 This is a UI to interact with 3D models created in Autodesk's Fusion 360. The user has the ability to zoom in, pan, and rotate around the object. This project is called Hamsa to represent the connection between Hands (of the user), and the eye (computer vision).
+![hamsa](hamsa.png)
 
 ## Notes
 - I just want to apologize in advance for the frame rate that I am running in each GIF. I did the enirety of this project on a 2018 HP Envy Laptop (save training using Google's platform). I do not have a GPU, so I have to run inferences from a CPU.
