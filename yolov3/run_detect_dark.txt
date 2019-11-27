@@ -1,0 +1,1 @@
+#python detect_box.py --data data/obj.data --cfg cfg/yolov3-tiny0-dark.cfg --weights weights/yolov3-tiny0_best.weights --source 0
