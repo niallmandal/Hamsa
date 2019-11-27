@@ -1,9 +1,10 @@
 # Hamsa
-This is a UI to interact with 3D models created in Autodesk's Fusion 360. The user has the ability to zoom in, pan, and rotate around the object.
+This is a UI to interact with 3D models created in Autodesk's Fusion 360. The user has the ability to zoom in, pan, and rotate around the object. This project is called Hamsa to represent the connection between Hands (of the user), and the eye (computer vision).
 
 ## Notes
 - I just want to apologize in advance for the frame rate that I am running in each GIF. I did the enirety of this project on a 2018 HP Envy Laptop (save training using Google's platform). I do not have a GPU, so I have to run inferences from a CPU.
 - The UI mimics both keyboard and mouse input, and does not communicate with Fusion 360 directly
+- I feel cool becuase this is how Tony Stark interacts with his suits in the movies
 
 ## Training the Model
 I first started taking images. I took ~200 images of opened and closed hands through my webcam, ending up with 398 images total. Images were taken in a variety of locations, lighting patterns, etc. After this, I used a Yolov3 [labeling tool](https://github.com/Cartucho/OpenLabeling) to draw a bounding box around each opened and/or closed hand in the frame.
