@@ -2,7 +2,8 @@
 This is a UI to interact with 3D models created in Autodesk's Fusion 360. The user has the ability to zoom in, pan, and rotate around the object.
 
 ## Notes
-I just want to apologize in advance for the frame rate that I am running at. I did the enirety of this project on a 2018 HP Envy Laptop (save training using Google's platform). I do not have a GPU, so I have to run inferences from a CPU.
+- I just want to apologize in advance for the frame rate that I am running in each GIF. I did the enirety of this project on a 2018 HP Envy Laptop (save training using Google's platform). I do not have a GPU, so I have to run inferences from a CPU.
+- The UI mimics both keyboard and mouse input, and does not communicate with Fusion 360 directly
 
 ## Training the Model
 I first started taking images. I took ~200 images of opened and closed hands through my webcam, ending up with 398 images total. Images were taken in a variety of locations, lighting patterns, etc. After this, I used a Yolov3 [labeling tool](https://github.com/Cartucho/OpenLabeling) to draw a bounding box around each opened and/or closed hand in the frame.
@@ -33,5 +34,3 @@ Moving your open hand, while having a closed hand inside of the frame, will rota
 ![](demo/zoom.gif)
 
 Moving two open hands towards or away from eachother will zoom out and in, respectively. The line formed between each hand represents the distance between each hand. The __derivative__ in respect to the length of the line is also displayed as __dy/dx__. A positive slope indicates a growth in the length of the line, so the program will zoom according to the value of __dy/dx__ at that point in time. A larger positive __dy/dx__ will zoom in more clicks relative to a smaller positive __dy/dx__. If the derivitave is negative, the same will happen but the program will zoom out instead.
-
-*NOTE: The UI mimics both keyboard and mouse input, and does not communicate with Fusion 360 directly*
