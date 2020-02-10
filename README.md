@@ -37,5 +37,6 @@ Moving your open hand, while having a closed hand inside of the frame, will rota
 
 Moving two open hands towards or away from eachother will zoom out and in, respectively. The line formed between each hand represents the distance between each hand. The __derivative__ in respect to the length of the line is also displayed as __dy/dx__. A positive slope indicates a growth in the length of the line, so Hamsa zoom according to the value of __dy/dx__ at that point in time. A larger positive __dy/dx__ will zoom in more clicks relative to a smaller positive __dy/dx__. If the derivitave is negative, the same will happen but Hamsa will zoom out instead.
 
-## Demo
-I will make a demo of this tool in action to prove that it works, when I can get access to a computer with a GPU. My laptop cannot handle running Fusion 360, OBS, and Hamsa at the same time. It runs between 1-2 FPS.
+
+~~## Demo
+I will make a demo of this tool in action to prove that it works, when I can get access to a computer with a GPU. My laptop cannot handle running Fusion 360, OBS, and Hamsa at the same time. It runs between 1-2 FPS.~~
