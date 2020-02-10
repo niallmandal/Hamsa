@@ -1,4 +1,4 @@
-# Hamsa
+# Hamsa ([video demonstration](http://www.youtube.com/watch?v=nB2vv3uiaN4))
 This is a UI to interact with 3D models created in Autodesk's Fusion 360. The user has the ability to zoom in, pan, and rotate around the object. This project is called Hamsa to represent the connection between Hands (of the user), and the eye (computer vision).
 ![hamsa](hamsa.png)
 
